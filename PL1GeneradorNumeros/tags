@@ -1,0 +1,4 @@
+VISTA_HPP	C:\Users\carlo\Desktop\pro1\workspace\workspace\PL1\vista\Vista.hpp	/^#define VISTA_HPP$/;"	macro	line:2
+Vista	C:\Users\carlo\Desktop\pro1\workspace\workspace\PL1\vista\Vista.hpp	/^class Vista$/;"	class	line:4
+Vista	C:\Users\carlo\Desktop\pro1\workspace\workspace\PL1\vista\Vista.hpp	/^    Vista();$/;"	prototype	line:7	class:Vista	access:public	signature:()
+~Vista	C:\Users\carlo\Desktop\pro1\workspace\workspace\PL1\vista\Vista.hpp	/^    ~Vista();$/;"	prototype	line:8	class:Vista	access:public	signature:()

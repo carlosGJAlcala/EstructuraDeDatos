@@ -1,0 +1,20 @@
+CORE_HPP	E:\BraveHeart\cpp\dS\Tree\PL2\vista\..\control\Core.hpp	/^#define CORE_HPP$/;"	macro	line:2
+Core	E:\BraveHeart\cpp\dS\Tree\PL2\vista\..\control\Core.hpp	/^class Core$/;"	class	line:8
+contador	E:\BraveHeart\cpp\dS\Tree\PL2\vista\..\control\Core.hpp	/^    int contador;$/;"	member	line:11	class:Core	access:public
+letras	E:\BraveHeart\cpp\dS\Tree\PL2\vista\..\control\Core.hpp	/^    int letras;$/;"	member	line:12	class:Core	access:public
+Core	E:\BraveHeart\cpp\dS\Tree\PL2\vista\..\control\Core.hpp	/^    Core();$/;"	prototype	line:13	class:Core	access:public	signature:()
+~Core	E:\BraveHeart\cpp\dS\Tree\PL2\vista\..\control\Core.hpp	/^    ~Core();$/;"	prototype	line:14	class:Core	access:public	signature:()
+loadtree	E:\BraveHeart\cpp\dS\Tree\PL2\vista\..\control\Core.hpp	/^    void loadtree();$/;"	prototype	line:15	class:Core	access:public	signature:()	returns:void 
+dictionaryTest	E:\BraveHeart\cpp\dS\Tree\PL2\vista\..\control\Core.hpp	/^    bool dictionaryTest(Tree* tree, char* c); \/\/ busca una palabra en un dicionario.$/;"	prototype	line:16	class:Core	access:public	signature:(Tree* tree, char* c)	returns:bool 
+dictionaryTreeInfo	E:\BraveHeart\cpp\dS\Tree\PL2\vista\..\control\Core.hpp	/^    void dictionaryTreeInfo(Tree* tree);      \/\/ devuelve el max de nodos  y la profundidad del arbol$/;"	prototype	line:17	class:Core	access:public	signature:(Tree* tree)	returns:void 
+stringGeneration	E:\BraveHeart\cpp\dS\Tree\PL2\vista\..\control\Core.hpp	/^    void stringGeneration(int num);           \/\/ genera 50K de char string con las reglas que venga el pdf$/;"	prototype	line:18	class:Core	access:public	signature:(int num)	returns:void 
+reverseDictionary	E:\BraveHeart\cpp\dS\Tree\PL2\vista\..\control\Core.hpp	/^    void reverseDictionary(Tree* tree);       \/\/ da la vuelta a un dicionario$/;"	prototype	line:19	class:Core	access:public	signature:(Tree* tree)	returns:void 
+saveDictionary	E:\BraveHeart\cpp\dS\Tree\PL2\vista\..\control\Core.hpp	/^    void saveDictionary(Tree tree);           \/\/ sirve para guardar el dicionario$/;"	prototype	line:20	class:Core	access:public	signature:(Tree tree)	returns:void 
+loadDictionary	E:\BraveHeart\cpp\dS\Tree\PL2\vista\..\control\Core.hpp	/^    void loadDictionary(char* caract);        \/\/ carga el dicionario en un arbol$/;"	prototype	line:21	class:Core	access:public	signature:(char* caract)	returns:void 
+saveFile	E:\BraveHeart\cpp\dS\Tree\PL2\vista\..\control\Core.hpp	/^    void saveFile(char* caract);$/;"	prototype	line:22	class:Core	access:public	signature:(char* caract)	returns:void 
+loadFile	E:\BraveHeart\cpp\dS\Tree\PL2\vista\..\control\Core.hpp	/^    void loadFile();$/;"	prototype	line:23	class:Core	access:public	signature:()	returns:void 
+funcHash	E:\BraveHeart\cpp\dS\Tree\PL2\vista\..\control\Core.hpp	/^    int funcHash(char*);$/;"	prototype	line:24	class:Core	access:public	signature:(char*)	returns:int 
+preorder	E:\BraveHeart\cpp\dS\Tree\PL2\vista\..\control\Core.hpp	/^    void preorder(Node* node, char* palabra, Stack* stack);$/;"	prototype	line:25	class:Core	access:public	signature:(Node* node, char* palabra, Stack* stack)	returns:void 
+saveFileQueue	E:\BraveHeart\cpp\dS\Tree\PL2\vista\..\control\Core.hpp	/^    void saveFileQueue(Queue* _queue);$/;"	prototype	line:27	class:Core	access:public	signature:(Queue* _queue)	returns:void 
+lista	E:\BraveHeart\cpp\dS\Tree\PL2\vista\..\control\Core.hpp	/^    List* lista;$/;"	member	line:29	class:Core	access:public
+getTree	E:\BraveHeart\cpp\dS\Tree\PL2\vista\..\control\Core.hpp	/^    Tree* getTree();$/;"	prototype	line:31	class:Core	access:public	signature:()	returns:Tree 

@@ -1,0 +1,1 @@
+../build-Debug/PL1/modelo_elements_Data.cpp.o ../build-Debug/PL1/modelo_list_List.cpp.o ../build-Debug/PL1/vista_Vista.cpp.o ../build-Debug/PL1/modelo_queue_Queue.cpp.o ../build-Debug/PL1/control_Core.cpp.o ../build-Debug/PL1/main.cpp.o ../build-Debug/PL1/modelo_stack_Stack.cpp.o ../build-Debug/PL1/modelo_elements_Element.cpp.o   

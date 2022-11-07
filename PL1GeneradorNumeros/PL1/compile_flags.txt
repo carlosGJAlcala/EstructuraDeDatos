@@ -1,0 +1,3 @@
+-IC:\Users\carlo\Desktop\pro1\workspace\workspace\PL1
+-target
+mingw32

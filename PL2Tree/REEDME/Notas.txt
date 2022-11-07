@@ -1,0 +1,1 @@
+El archivo con el dicionario, viene dentro si se ejecuta en codelite con el  f5  y cuando se solicita el nombre del archivo se le pasa  de nombre , documento.txt debería cogerlo.

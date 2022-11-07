@@ -1,0 +1,4 @@
+-IE:\BraveHeart\cpp\dS\Tree\PL2
+-std=c++17
+-target
+mingw32

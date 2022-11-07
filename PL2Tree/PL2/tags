@@ -1,0 +1,17 @@
+QUEUE_HPP	e:\braveheart\cpp\ds\tree\pl2\modelo\queue\Queue.hpp	/^#define QUEUE_HPP$/;"	macro	line:2
+SIZE	e:\braveheart\cpp\ds\tree\pl2\modelo\queue\Queue.hpp	/^#define SIZE 1000$/;"	macro	line:7
+Queue	e:\braveheart\cpp\ds\tree\pl2\modelo\queue\Queue.hpp	/^class Queue$/;"	class	line:10
+arr	e:\braveheart\cpp\ds\tree\pl2\modelo\queue\Queue.hpp	/^    int *arr;       \/\/ array to store queue elements$/;"	member	line:12	class:Queue	access:private
+capacity	e:\braveheart\cpp\ds\tree\pl2\modelo\queue\Queue.hpp	/^    int capacity;   \/\/ maximum capacity of the queue$/;"	member	line:13	class:Queue	access:private
+front	e:\braveheart\cpp\ds\tree\pl2\modelo\queue\Queue.hpp	/^    int front;      \/\/ front points to the front element in the queue (if any)$/;"	member	line:14	class:Queue	access:private
+rear	e:\braveheart\cpp\ds\tree\pl2\modelo\queue\Queue.hpp	/^    int rear;       \/\/ rear points to the last element in the queue$/;"	member	line:15	class:Queue	access:private
+count	e:\braveheart\cpp\ds\tree\pl2\modelo\queue\Queue.hpp	/^    int count;      \/\/ current size of the queue$/;"	member	line:16	class:Queue	access:private
+Queue	e:\braveheart\cpp\ds\tree\pl2\modelo\queue\Queue.hpp	/^    Queue(int size = SIZE);     \/\/ constructor$/;"	prototype	line:19	class:Queue	access:public	signature:(int size = SIZE)
+~Queue	e:\braveheart\cpp\ds\tree\pl2\modelo\queue\Queue.hpp	/^    ~Queue();                   \/\/ destructor$/;"	prototype	line:20	class:Queue	access:public	signature:()
+Queue	e:\braveheart\cpp\ds\tree\pl2\modelo\queue\Queue.hpp	/^    Queue(); $/;"	prototype	line:21	class:Queue	access:public	signature:()
+dequeue	e:\braveheart\cpp\ds\tree\pl2\modelo\queue\Queue.hpp	/^    int dequeue();$/;"	prototype	line:22	class:Queue	access:public	signature:()	returns:int 
+enqueue	e:\braveheart\cpp\ds\tree\pl2\modelo\queue\Queue.hpp	/^    void enqueue(int x);$/;"	prototype	line:23	class:Queue	access:public	signature:(int x)	returns:void 
+peek	e:\braveheart\cpp\ds\tree\pl2\modelo\queue\Queue.hpp	/^    int peek();$/;"	prototype	line:24	class:Queue	access:public	signature:()	returns:int 
+size	e:\braveheart\cpp\ds\tree\pl2\modelo\queue\Queue.hpp	/^    int size();$/;"	prototype	line:25	class:Queue	access:public	signature:()	returns:int 
+isEmpty	e:\braveheart\cpp\ds\tree\pl2\modelo\queue\Queue.hpp	/^    bool isEmpty();$/;"	prototype	line:26	class:Queue	access:public	signature:()	returns:bool 
+isFull	e:\braveheart\cpp\ds\tree\pl2\modelo\queue\Queue.hpp	/^    bool isFull();$/;"	prototype	line:27	class:Queue	access:public	signature:()	returns:bool 
